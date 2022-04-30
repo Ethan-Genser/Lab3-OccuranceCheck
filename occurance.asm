@@ -46,7 +46,6 @@ CheckLoop:
 	addu $a0, $0, $s1
 	ori $v0, $0, 1
 	syscall
-	# Print a comma
 	la $a0, str4
 	ori $v0, $0, 4
 	syscall
